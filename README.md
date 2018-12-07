@@ -4,7 +4,7 @@
 2. Open the terminal app
 3. run (paste into terminal and press enter) `cd / && cd Applications/XAMPP/htdocs && mkdir AABMM && cd AABMM` This will navigate to your local server, make a folder for AABMM, and then go into that folder.
 4. run `git init`
-5. run `git remote add origin https://github.com/stevensullivan/AABMM.git`
+5. run `git remote add origin https://github.com/AABMM/AABMM.git`
 6. run `git pull origin master`
 7. run `ls` you should see a bunch of files and folders. 
 8. Open the XAMPP app and go to MANAGE SERVERS. Start all of the servers.
@@ -20,7 +20,7 @@
 5. run `git status` to see if any files or folders were changed. If not, you can stop here.
 6. run `git commit -a -m "description of the change that you made"`. Your change is now saved on your computer.
 7. run `git push origin BRANCHNAME`. Your change is now saved on github. 
-8. If you are done making changes, go to https://github.com/stevensullivan/AABMM/tree/BRANCHNAME and click `create pull request`. It will check if its safe to merge that code with the master branch, and if so, allow you to merge.
+8. If you are done making changes, go to https://github.com/AABMM/AABMM/tree/BRANCHNAME and click `create pull request`. It will check if its safe to merge that code with the master branch, and if so, allow you to merge.
 
 TIP: Keep your commits small. You should be able to describe each one in a sentence or two. Here is an example of some appropreate commits
 
